@@ -22,7 +22,11 @@ elements architectures, protocols and algorithms used in high-speed networks wit
                   | Traffic Generator  |  IPerf                             |   2.0.10        |
                   |  Virtual Box       |  Box Oracle VM Virtual Box Manager |     7.0         |
                   
-
+|      Hardware      |     Version      |
+|--------------------|------------------|
+|  CPU - Processor   | Intel Core - i9  |
+|        RAM         |       8 GB       |
+| Hard-Disk-Capacity |      100 GB      |
 
 
 
