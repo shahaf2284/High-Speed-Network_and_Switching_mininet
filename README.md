@@ -13,14 +13,15 @@ elements architectures, protocols and algorithms used in high-speed networks wit
 
 * Mininet Project 
 
-                  |      Software      |   Software-Tool                    |     Version     |
-                  |--------------------|------------------------------------|-----------------|
-                  |         OS         |  Ubuntu-Desktop                    |     18.04       |
-                  |    Test Bed        |      Mininet                       |    2.3.1d6      |
-                  |     Controller     |      RYU                           |     -----       |
-                  |     Switch         |  Open-v-switch                     |    2.9.6        |
-                  | Traffic Generator  |  IPerf                             |   2.0.10        |
-                  |  Virtual Box       |  Box Oracle VM Virtual Box Manager |     7.0         |
+|      Software      |   Software-Tool                    |     Version     |
+|--------------------|------------------------------------|-----------------|
+|         OS         |  Ubuntu-Desktop                    |     18.04       |
+|    Test Bed        |      Mininet                       |    2.3.1d6      |
+|     Controller     |      RYU                           |     -----       |
+|     Switch         |  Open-v-switch                     |    2.9.6        |
+| Traffic Generator  |  IPerf                             |   2.0.10        |
+|  Virtual Box       |  Box Oracle VM Virtual Box Manager |     7.0         |
+
                   
 |      Hardware      |     Version      |
 |--------------------|------------------|
