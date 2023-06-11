@@ -12,6 +12,21 @@ of high-speed networks. The course will provide understanding of key issues in n
 elements architectures, protocols and algorithms used in high-speed networks with some emphasis on switching and traffic management.
 
 Mininet Project using ubuntu 18.04
+OS Ubuntu-Desktop 18.04
+Test Bed Mininet 2.3.1d6
+Controller RYU
+Switch Open-v-switch 2.9.6
+Traffic Generator IPerf 2.0.10
+Virtual Box Oracle VM Virtual Box Manager 7.0
+
+|      Hardware      |     Version      |
+|--------------------|------------------|
+|  CPU - Processor   | Intel Core - i9  |
+|--------------------|------------------|
+|        RAM         |       8 GB       |
+|--------------------|------------------|
+| Hard-Disk-Capacity |      100 GB      |
+
 
 # Analysis of Multi-path Network
 ![image](https://github.com/shahaf2284/High-Speed-Network_and_Switching_mininet/assets/122786017/686caa44-875a-4cd8-8617-ffb36bb10cd3)
@@ -34,7 +49,7 @@ find the short distance from source node. And the edges from the level graph do 
 iterations of DFS (Depth-First-Search) approach from source to destination until there
 are no augmented paths possible, then the maximum flow is found. Once we received
 the maximum flow-value RYU-Controller sets that as constant value for maximum paths
-which is used for multipath routing. Through this approach we can improve the through￾put(bandwidth). The below Figure 4 defines the high-level execution of this project.
+which is used for multipath routing. Through this approach we can improve the through-put(bandwidth). The below defines the high-level execution of this project.
 
 ![image](https://github.com/shahaf2284/High-Speed-Network_and_Switching_mininet/assets/122786017/ba046bf3-4547-4edb-9da1-27a6be7c4b42)
 
