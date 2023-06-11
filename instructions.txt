@@ -1,0 +1,63 @@
+sudo mn --switch ovsbr  --test pingall
+sudo python sdn_topology.py
+
+
+//run the topology
+sudo python flow_topo.py --link=tc
+
+
+// clear the mininet variables
+sudo mn -c 
+
+
+// check links and nodes
+nodes
+net
+links
+h1 ifconfig
+pingall
+
+---------------------- WIRESHARK-------------------
+run a new linux process and enter the command:
+sudo wireshark &
+-------------- TERMINAL 1 ----------------------
+
+
+to run the topology-
+sudo python flow_topo.py 
+
+run the controller-
+------------------- TERMINAL 2-------------------
+ryu-manager --observe-links ryu_maxflow.py
+or
+if fast congestion then reboot the functions 
+ryu-manager --observe-links dijkstra.py
+
+to open cmd from 2 host, h1 and h2-
+xterm h1 h2
+ 
+H1 function:
+	iperf -c 10.0.0.2 -p 5555 -n 102400M -P 10
+
+for dijkstra iperf -c 10.0.0.2 -p 5555 -n 1024000M
+H2 function:
+	iperf -s -p 5555 -i 1 > results
+	^c
+	cat results | grep sec | head -20 | tr - " " | awk '{print $4,$8}' > res_maxflow
+	more res_maxflow
+
+-------------- NEW TERMINAL 3 ---------------
+sudo ovs-ofctl -O OpenFlow13 dump-groups s5
+
+sudo ovs-ofctl -O OpenFlow13 dump-flows s5
+
+sudo ovs-ofctl -O OpenFlow13 dump-ports s5
+
+
+
+
+
+
+
+
+
