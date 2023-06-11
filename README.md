@@ -11,19 +11,23 @@ The exponential increase of Internet and multimedia applications has accelerated
 of high-speed networks. The course will provide understanding of key issues in network and network 
 elements architectures, protocols and algorithms used in high-speed networks with some emphasis on switching and traffic management.
 
-Mininet Project using ubuntu 18.04
-OS Ubuntu-Desktop 18.04
-Test Bed Mininet 2.3.1d6
-Controller RYU
-Switch Open-v-switch 2.9.6
-Traffic Generator IPerf 2.0.10
-Virtual Box Oracle VM Virtual Box Manager 7.0
+* Mininet Project 
 
-|      Hardware      |     Version      |
-|--------------------|------------------|
-|  CPU - Processor   | Intel Core - i9  |
-|        RAM         |       8 GB       |
-| Hard-Disk-Capacity |      100 GB      |
+                  |      Software      |   Software-Tool                    |     Version     |
+                  |--------------------|------------------------------------|-----------------|
+                  |         OS         |  Ubuntu-Desktop                    |     18.04       |
+                  |    Test Bed        |      Mininet                       |    2.3.1d6      |
+                  |     Controller     |      RYU                           |     -----       |
+                  |     Switch         |  Open-v-switch                     |    2.9.6        |
+                  | Traffic Generator  |  IPerf                             |   2.0.10        |
+                  |  Virtual Box       |  Box Oracle VM Virtual Box Manager |     7.0         |
+                  
+
+                                  |      Hardware      |     Version      |
+                                  |--------------------|------------------|
+                                  |  CPU - Processor   | Intel Core - i9  |
+                                  |        RAM         |       8 GB       |
+                                  | Hard-Disk-Capacity |      100 GB      |
 
 
 # Analysis of Multi-path Network
