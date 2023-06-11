@@ -1,5 +1,9 @@
-# High-Speed-Network_and_Switching_mininet
+# High-Speed-Network and Switching project on mininet
 High Speed Network and Switching 
+
+Flow Optimization in Multipath Network
+using Maximum Flow Algorithm to Improve
+the Bandwidth Usage in SDN
 
 * Module's Description:
 The project will explore the architecture of network elements used in high speed networks, provide the survey of
