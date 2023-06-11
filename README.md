@@ -7,7 +7,6 @@ modern network protocols and discuss issues that face network architects who des
 Concepts will be illustrated by examples from Linux Networking Stack.
 
 Aims of the module:
-
 The exponential increase of Internet and multimedia applications has accelerated research, development and deployment 
 of high-speed networks. The course will provide understanding of key issues in network and network 
 elements architectures, protocols and algorithms used in high-speed networks with some emphasis on switching and traffic management.
