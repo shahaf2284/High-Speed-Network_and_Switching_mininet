@@ -12,3 +12,4 @@ of high-speed networks. The course will provide understanding of key issues in n
 elements architectures, protocols and algorithms used in high-speed networks with some emphasis on switching and traffic management.
 
 Mininet Project using ubuntu 18.04 
+![image](https://github.com/shahaf2284/High-Speed-Network_and_Switching_mininet/assets/122786017/686caa44-875a-4cd8-8617-ffb36bb10cd3)
