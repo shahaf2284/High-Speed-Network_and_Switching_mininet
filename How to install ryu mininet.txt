@@ -1,10 +1,10 @@
 download link 
 for desktop version
-https://www.omgubuntu.co.uk/2021/08/ubuntu-20-04-3-point-release
+https://www.omgubuntu.co.uk/2021/08/ubuntu-18-04-3-point-release
 ####################################
 for server CLI only 
 download link 
-https://releases.ubuntu.com/20.04.1/ubuntu-20.04.1-live-server-amd64.iso
+https://releases.ubuntu.com/18.04.1/ubuntu-18.04.1-live-server-amd64.iso
 #############ssh and git
 sudo apt install ssh
 sudo apt install git
@@ -55,7 +55,7 @@ sudo mn --controller=remote,ip=192.168.1.11 --switch=ovsk,protocols=OpenFlow13 -
 Steps in following link
 https://drive.google.com/file/d/1B_uWU6eGHAXqJ8-PvjPLNwM9ADgVZ1lz/view?usp=sharing
 ############################################
-إذا فشل في ال boot
+
 single mouse click on ubuntu screen
 then 
 hit enter key
