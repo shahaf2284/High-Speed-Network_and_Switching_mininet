@@ -60,5 +60,8 @@ which is used for multipath routing. Through this approach we can improve the th
 
 ![image](https://github.com/shahaf2284/High-Speed-Network_and_Switching_mininet/assets/122786017/ba046bf3-4547-4edb-9da1-27a6be7c4b42)
 
+# Topology 
+
+![image](https://github.com/shahaf2284/High-Speed-Network_and_Switching_mininet/assets/122786017/6ef81fc1-a4be-4650-ab47-0c06247a485d)
 
 
